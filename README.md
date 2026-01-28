@@ -1,4 +1,4 @@
-# 🌱 Semundje_Bimet_Gr5 - Sistema për Zbulimin e Sëmundjeve të Bimëve
+# 🌱 Semundje_Bimet_Gr5 - Sistem për Zbulimin e Sëmundjeve të Bimëve
 
 ## 📋 Përshkrimi i Projektit
 
