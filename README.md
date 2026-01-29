@@ -24,7 +24,7 @@ Projekti synon të ndihmojë fermerët dhe agronomët në identifikimin e shpejt
 - ✅ Përpunim i imazheve në kohë reale
 - ✅ Rekomandime për trajtim dhe fertilizues
 - ✅ Dataset i bazuar në PlantVillage
-- ✅ Saktësi mbi 95%
+- ✅ Saktësi mbi 90%
 
 
 ## 🛠️ Teknologjitë e Përdorura
@@ -140,7 +140,7 @@ python app.py
 ## 🧠 Modeli
 
 ### Arkitektura
-- 5 Convolutional layers
+- 4 Convolutional layers
 - Batch Normalization
 - Max Pooling
 - Dropout (0.5)
@@ -155,7 +155,5 @@ python app.py
 ### Performanca
 - **Training Accuracy**: ~89%
 - **Validation Accuracy**: ~90%
-- **Test Accuracy**: ~85%
-- **Inference Time**: ~50ms per image
-
+- **Training Time**: ~30 minutes (GPU)
 
