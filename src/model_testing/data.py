@@ -15,14 +15,13 @@ def load_imagefolder(dataset_path: str):
 
 
 def make_samplers(dataset_len: int, train_ratio: float = 0.85, train_inside_ratio: float = 0.70, seed: int = 123):
-    """
-    Matches your notebook:
+ 
       split = floor(0.85 * N)
       validation = floor(0.70 * split)
       train = indices[:validation]
       validation = indices[validation:split]
       test = indices[split:]
-    """
+ 
     indices = list(range(dataset_len))
     rng = np.random.RandomState(seed)
     rng.shuffle(indices)
